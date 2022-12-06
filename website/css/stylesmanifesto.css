@@ -1,0 +1,86 @@
+body {
+  font-size: 1em;
+  font-family: georgia, serif, bold;
+  background-image: linear-gradient(to bottom, #5a3c5e, #452e49);
+  background-color: #5a3c5e;
+  color: #cabbd1;
+  height:50em;
+  letter-spacing: 0.6em;
+}
+
+h2 {
+  font-family: georgia, serif, bold;
+  color: #cabbd1;
+  text-align: center;
+}
+
+button {
+  height: 2.2em;
+  width: 5.6em;
+  margin-right: 4em;
+  text-align: center;
+  font-size: 2em;
+  font-family: Verdana, sans-serif, bold;
+  color: #cabbd1;
+  background-color: #3a1d48;
+  border-radius: 0.6em;
+  border-width: thin;
+  border-color: #3a1d48;
+}
+
+.manifesto{
+  margin-top: 2.4em;
+  margin-bottom: 2.4em;
+  margin-left: 2.4em;
+}
+
+.hometext{
+  font-size: 1.6em;
+  text-align: center;
+  font-family: Georgia, serif, bold;
+}
+
+.box {
+  border-color: #dbc6cb;
+  border: solid;
+  margin-top: 1.4em;
+  border-width:medium;
+}
+
+.balls {
+  height: 32em;
+  padding-left: 42em;
+}
+
+.wrapper{
+  position: absolute;
+  background: balck;
+  top: 50%;
+  width: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.eye{
+  width: 260px;
+  height: 260px;
+  background: #cabbd1;
+  display: inline-block;
+  margin: 40px;
+  border-radius: 50%;
+  position:relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.ball{
+  width: 100px;
+  height: 100px;
+  background: black;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  border:15px solid #5a3c5e;
+  border-radius: 50%;
+}

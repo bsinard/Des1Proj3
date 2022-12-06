@@ -1,0 +1,63 @@
+body {
+   font-size: 1.2em;
+   font-family: Georgia, serif;
+   background-image: linear-gradient(to bottom, #5e3c44, #512d35);
+   background-color: #6B45A4;
+   color: #dbc6cb;
+   height: 44em;
+   letter-spacing: 0.6em;
+
+}
+
+h4 {
+   font-family: Georgia, serif;
+   color: #dbc6cb;
+   text-align: center;
+}
+
+button {
+  height: 2.2em;
+  width: 5.6em;
+  margin-right: 4em;
+  text-align: center;
+  font-size: 2em;
+  font-family: Verdana, sans-serif, bold;
+  color: #dbc6cb;
+  background-color: #481d27;
+  border-radius: 0.6em;
+  border-width: thin;
+  border-color: #481d27;
+}
+
+.manifesto{
+  margin-top: 2.4em;
+  margin-bottom: 2.4em;
+  margin-left: 2.4em;
+}
+
+.hometext{
+  font-size: 5.4em;
+  text-align: left;
+  font-family: Arial, sans-serif, bold;
+  margin-bottom: -1.2em;
+  letter-spacing: -0.08em;
+}
+
+.hometext2{
+  font-size: 5.8em;
+  text-align: left;
+  font-family: Arial, sans-serif, bold;
+}
+
+.box {
+  border-color: #dbc6cb;
+  border: solid;
+  margin-top: 1.4em;
+
+}
+
+.balld {
+  width: 1500px;
+  height: 600px;
+  margin-bottom: -10em;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<script src="manifesto.js"></script>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Manifesto Screen</title>
+    <link rel="stylesheet" type="text/css" href="css/stylesmanifesto.css">
+    <a href= "index.html"><button>homepage</button></a> <button>manifesto</button> <a href="methods.html"><button>method</button></a>
+  </head>
+  <body>
+    <div class=hometext>
+    </div>
+    <div class="wrapper">
+      <div class="eye">
+          <span></span>
+      </div>
+      <div class="ball">
+
+      </div>
+      <script type="text/javascript">
+        const eyeball = document.querySelector(".ball");
+
+        document.onmousemove = () => {
+          var x = event.clientX * 100 / window.innerWidth;
+          var y = event.clientY * 100 / window.innerHeight;
+
+          x-=75;
+          y-=100;
+          console.log(x);
+          if(x>=-13){
+            x=0;
+          }
+          eyeball.style.transform = "translate("+x+"%, "+y+"%)";
+          //eyeball.style.transform = "translate(-"+x+"%, -"+y+"%)";
+        }
+      </script>
+    </div>
+    <div class=box>
+      <div class="manifesto">
+        <img src="images/thing.png" class="balls">
+      </div>
+    </div>
+  </body>
+</html>
